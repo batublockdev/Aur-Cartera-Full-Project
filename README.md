@@ -7,7 +7,7 @@
 ## 🎬 Presentación y Recursos Multimedia
 
 ### 🌐 Portal Web & Landing Page
-* **Landing Page Oficial**: Explora la plataforma y la propuesta de valor en el submódulo [`aur-landing`](./aur-landing).
+* **Landing Page Oficial**:  [`www.aurcartera.com`](www.aurcartera.com).
 
 ### 📺 Demos en Video y Documental de Origen
 
@@ -35,7 +35,7 @@ El monorepositorio **`Aur-Cartera-Full-Project`** orquesta tres componentes prin
 
 ```
                       +------------------------------------------+
-                      |         Landing Page (aur-landing)       |
+                      |                Landing Page  
                       |        Portal Web Oficial de Aur         |
                       +--------------------+---------------------+
                                            |
@@ -60,7 +60,7 @@ El monorepositorio **`Aur-Cartera-Full-Project`** orquesta tres componentes prin
 
 ### Componentes del Repositorio
 
-* **`aur-landing` (Portal Web Landing Page)**: Interfaz web pública orientada a la educación del usuario, presentación de la solución y redirección hacia WhatsApp.
+
 * **`aur-api` (Orquestador Backend y Bot de WhatsApp)**: Servidor Node.js/Express que gestiona la API Graph de WhatsApp (v18.0), procesa intenciones conversacionales con inteligencia artificial (**Google Gemini**), mantiene la persistencia de grupos en **PostgreSQL** y construye sobres de transacción XDR.
 * **`aur-app` / `aur-accesscontrol-app` (Cliente Móvil y Self-Wallet)**: Aplicación React Native que implementa el módulo no custodio `self-wallet/wallet.js` para la generación criptográfica de claves Ed25519, cifrado simétrico local de semillas y aprobación visual de solicitudes XDR (`Solicitudes.jsx`).
 * **Red Blockchain Stellar**: Infraestructura descentralizada que procesa y liquida operaciones en USDC y XLM, aplica patrocinio de reservas (*sponsorship*) y ejecuta reglas multifirma.
@@ -69,9 +69,9 @@ El monorepositorio **`Aur-Cartera-Full-Project`** orquesta tres componentes prin
 
 ## 2. Desglose Tecnológico por Submódulo
 
-### 2.1 Portal Web Landing Page (`aur-landing`)
+### 2.1 Portal Web Landing Page 
 
-Alojado en el submódulo `aur-landing`, constituye el punto de entrada principal para el público general y aliados estratégicos:
+Constituye el punto de entrada principal para el público general y aliados estratégicos:
 
 * **Diagnóstico de Inclusión Financiera**: Documenta las barreras económicas de la región (comisiones elevadas en remesas, falta de transparencia en ahorros comunitarios e inflación).
 * **Demostración Interactiva**: Enlaces directos a los videos demostrativos ([Demo Short](https://www.youtube.com/shorts/KYbSKk6fQJo) y [Documental](https://www.youtube.com/watch?v=ae50cbaWbJ8)).
