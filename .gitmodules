@@ -1,3 +1,6 @@
 [submodule "aur-api"]
 	path = aur-api
 	url = git@github.com:batublockdev/aur-api.git
+[submodule "aur-app"]
+	path = aur-app
+	url = git@github.com:batublockdev/aur-accesscontrol-app.git
